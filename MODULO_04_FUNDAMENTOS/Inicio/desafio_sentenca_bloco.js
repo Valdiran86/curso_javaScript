@@ -1,4 +1,4 @@
-// imorimir os números impas em um bloco e os números pares em outro
+// imprimir os números impas em um bloco e os números pares em outro
 //bloco de código
 {//BLOCO 1
     console.log(1)
