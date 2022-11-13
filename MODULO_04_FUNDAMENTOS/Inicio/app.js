@@ -13,5 +13,11 @@ server.get("/dados1", (req, res)=>{
 server.get('/sentenca',(req,res)=>{
     res.sendFile(path.join(__dirname,"desafio_sentenca_bloco.js"))
 })
+server.get("/array",(req,res)=>{
+    res.sendFile(path.join(__dirname,'/tiposArray.js'))
+})
+server.get("/objetos",(req,res)=>{
+    res.sendFile(path.join(__dirname,"/tiposObject.js"))
+})
 
 server.listen(80,()=>console.log("Servidor rodando na porta 80"));
