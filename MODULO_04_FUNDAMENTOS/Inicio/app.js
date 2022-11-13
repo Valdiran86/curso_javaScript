@@ -19,5 +19,8 @@ server.get("/array",(req,res)=>{
 server.get("/objetos",(req,res)=>{
     res.sendFile(path.join(__dirname,"/tiposObject.js"))
 })
+server.get("/null", (req, res)=>{
+    res.sendFile(path.join(__dirname,'/nullUndfined.js'))
+})
 
 server.listen(80,()=>console.log("Servidor rodando na porta 80"));
